@@ -1,0 +1,45 @@
+{
+    "expert": "no",
+    "cli": false,
+    "adapterName": "yandexbridge",
+    "title": "yandex_mqtt_bridge",
+    "keywords": "",
+    "contributors": "",
+    "features": ["adapter"],
+    "adminFeatures": [],
+    "type": "protocols",
+    "startMode": "daemon",
+    "connectionType": "local",
+    "dataSource": "push",
+    "connectionIndicator": "yes",
+    "adapterSettings": [
+        {
+            "key": "option1",
+            "label": "opt1",
+            "inputType": "checkbox",
+            "defaultValue": true
+        },
+        {
+            "key": "option2",
+            "label": "opt2",
+            "inputType": "text",
+            "defaultValue": "42"
+        }
+    ],
+    "language": "TypeScript",
+    "nodeVersion": "14",
+    "adminUi": "json",
+    "releaseScript": "yes",
+    "indentation": "Space (4)",
+    "quotes": "single",
+    "es6class": "yes",
+    "tools": ["ESLint", "Prettier"],
+    "authorName": "mastergt",
+    "authorGithub": "mastergt",
+    "authorEmail": "mastergt@mail.ru",
+    "gitRemoteProtocol": "HTTPS",
+    "license": "MIT License",
+    "dependabot": "yes",
+    "target": "github",
+    "creatorVersion": "2.3.0"
+}
